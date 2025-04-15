@@ -70,7 +70,7 @@ To run the project locally, follow these steps:
 
 ```
 |-- app.py                   # Main Streamlit application
-|-- knn_model_binaAz.sav     # Trained KNN model for new buildings
+|-- knn_model.sav     # Trained KNN model for new buildings
 |-- rf_model_old.sav         # Trained Random Forest model for old buildings
 |-- requirements.txt         # Required Python libraries
 |-- README.md                # Project documentation

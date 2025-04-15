@@ -4,7 +4,7 @@ from streamlit_folium import st_folium
 import folium
 import numpy as np
 
-knn_model = pickle.load(open('knn_model_binaAz.sav', 'rb'))
+knn_model = pickle.load(open('knn_model.sav', 'rb'))
 st.title('Housing Predictor of new buildings')
 area=st.number_input('Area: ', min_value=35, max_value=1500, value=35, step=1)
 rooms=st.number_input('Rooms: ', min_value=1, max_value=15, value=1, step=1)

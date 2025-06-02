@@ -7,7 +7,7 @@ This project aims to predict housing prices in Baku, Azerbaijan, using machine l
 The housing market dataset was collected over a one-year period, focusing on properties in Baku. The dataset was used to train machine learning models to predict prices for two categories:
 
 - **New Buildings**
-- **Old Buildings**
+- **Old Buildings** 
 
 The prediction is based on features such as:
 - Area (in square meters)
